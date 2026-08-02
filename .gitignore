@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Env files
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Build output
+dist/
+build/
+**/dist/
+
+# Runtime artifacts
+**/uploads/*
+!**/uploads/.gitkeep
+**/logs/*
+!**/logs/.gitkeep
+coverage/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+npm-debug.log*
+.eslintcache
